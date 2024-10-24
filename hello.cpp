@@ -1,9 +1,11 @@
 #include <iostream>
+using namespace std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    int a = 0;
-    std::cin >> a;
-    
-    return 0;
+	int count = 3;
+	
+	for (int i = 0; i < count; i++)
+		cout << "Hello world!" <<  "\n";
+	
+	return 0;
 }
